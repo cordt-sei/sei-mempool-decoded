@@ -6,7 +6,7 @@ const { ethers } = require("ethers");
 const WebSocket = require("ws");
 
 // Replace with your Cosmos node's RPC URL
-const rpcUrl = 'http://tasty.seipex.fi:26657';
+const rpcUrl = 'http://localhost:26657';
 
 // Ethereum provider
 const ethProvider = new ethers.providers.WebSocketProvider("ws://localhost:8545");
