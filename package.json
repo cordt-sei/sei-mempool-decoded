@@ -1,0 +1,15 @@
+{
+  "name": "sei-tx-decoder",
+  "version": "1.0.0",
+  "main": "decoder.js",
+  "license": "MIT",
+  "scripts": {
+    "decode": "node tx-string.js"
+  },
+  "dependencies": {
+    "@cosmjs/encoding": "^0.32.4",
+    "@cosmjs/proto-signing": "^0.32.4",
+    "ethers": "^5.7.2",
+    "protobufjs": "^7.3.2"
+  }
+}
